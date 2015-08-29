@@ -2,7 +2,7 @@ FROM debian
 MAINTAINER Oleg Morozenkov
 
 RUN apt-get update && \
-	apt-get install uwsgi-plugin-php php5-curl php5-json && \
+	apt-get install -y uwsgi-plugin-php php5-curl php5-json && \
 	apt-get clean && \
 	rm -rf /var/lib/apt/lists/*
 
