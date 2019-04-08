@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:jessie
 MAINTAINER Oleg Morozenkov
 
 RUN apt-get update && \
